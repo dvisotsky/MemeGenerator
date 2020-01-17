@@ -2,22 +2,39 @@
 <html>
 <head>
 <link rel="stylesheet" href="main.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+<script src="main.js"></script>
+
 <title>My Meme Page</title>
 </head>
 <body>
 
-<h1>Welcome to my Meme page!</h1>
-<p>Here are some Memes I made</p>
+<h1>Welcome to the Rex Meme Generator!</h1>
 
 <div class="container">
-  <img src="media/Drake-Hotline-Bling.jpg" alt="Norway">
+  <img id="template" src="media/Drake-Hotline-Bling.jpg" alt="Norway">
 
-  <div class="text-block-drake-1">
-    <p>Creating Memes with a <br>Meme Generator</p>
+    <p id="text-top">Creating Memes<br>with a <br>Meme Generator</p>
+    <p id="text-bottom">Creating Memes <br>with Code</p>
+
+</div>
+
+<div id="form">
+  <h3>Create your own!</h3>
+  <div class="inputs">
+    <input type="radio" name="template" value="media/Drake-Hotline-Bling.jpg"> Kanye<br>
+    <input type="radio" name="template"value="media/Harold.jpg"> Harold<br>
+    <input type="radio" name="template" value="media/loading-cat.jpg"> Loading Cat<br>
+    <input type="radio" name="template" value="media/flex-seal.png"> Flex Seal
   </div>
 
-  <div class="text-block-drake-2">
-    <p>Creating Memes with <br>Code</p>
+  <div class="inputs">
+    <input type="text" id="top-text">Top Text</input><br>
+    <input type="text" id="bottom-text">Bottom Text</input>
+  </div>
+  <div class="inputs">
+    <input id="create" type="button" value="Create!"></input>
   </div>
 </div>
 
