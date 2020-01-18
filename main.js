@@ -2,7 +2,7 @@ $(document).ready(function(){
   $('#create').click(function(){
 
 
-    var template = $('input[name=template]:checked').val()
+    var template = $('input[name=template]:checked').val();
     var templateIndex =  $("input[name=template]:checked").index();
 
 
@@ -12,10 +12,10 @@ $(document).ready(function(){
      switch (templateIndex){
        case 0:
         $('#text-top').css("top", "50px");
-        $('#text-top').css("right", "20px");
+        $('#text-top').css("right", "40px");
         $('#text-top').css("color", "black");
         $('#text-bottom').css("bottom", "100px");
-        $('#text-bottom').css("right", "20px");
+        $('#text-bottom').css("right", "40px");
         $('#text-bottom').css("display", "inline");
         $('#text-bottom').css("color", "black");
         $('body').css("background-color", "white");

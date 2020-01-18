@@ -52,7 +52,7 @@ p{
 #text-top{
   position: absolute;
   top: 50px;
-  right: 0px;
+  right: 40px;
   padding-left: 5px;
   padding-right: 5px;
 }
@@ -60,7 +60,7 @@ p{
 #text-bottom{
   position: absolute;
   bottom: 70px;
-  right: 0px;
+  right: 40px;
   padding-left: 5px;
   padding-right: 5px;
   display: inline;
